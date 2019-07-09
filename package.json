@@ -2,10 +2,10 @@
   "name": "projetonode",
   "version": "1.0.0",
   "description": "Hello World na Umbler :D",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app"
+    "start": "app.js"
   },
   "repository": {
     "type": "git",
