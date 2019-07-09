@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hello Umbler</title>
+    <script>
+        var date = new Date();
+        var hora = date.getHours();
+        var min = date.getMinutes();
+        var horario = hora + ':' + min;
+        console.log(horario);
+    </script>
+</head>
+<body>
+    Hello World <span id="hora"></span>
+    <script>
+        var campo = document.getElementById("hora");
+        campo.innerHTML = horario;
+    </script>
+</body>
+
+</html>
+
+

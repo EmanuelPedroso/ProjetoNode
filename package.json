@@ -1,0 +1,23 @@
+{
+  "name": "projetonode",
+  "version": "1.0.0",
+  "description": "Hello World na Umbler :D",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmanuelPedroso/ProjetoNode.git"
+  },
+  "author": "Emanuel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EmanuelPedroso/ProjetoNode/issues"
+  },
+  "homepage": "https://github.com/EmanuelPedroso/ProjetoNode#readme",
+  "dependencies": {
+    "ejs": "^2.6.2",
+    "express": "^4.17.1"
+  }
+}
